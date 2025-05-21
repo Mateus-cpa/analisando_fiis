@@ -1,3 +1,5 @@
+# Analisando Fiis
+## Introdução
 Prezado!
 
 Estou compartilhando meu caderno em Python de Análise de Fundos de Investimento Imobiliários (FIIs) a partir de dados do StatusInvest e do Fundsexplorer.
@@ -9,3 +11,14 @@ Em seguida plotei alguns gráficos comparando dados como Patrimônio Líquido, S
 Para manusear os dados com filtros, exportei o arquivo final em .csv e alimentei o Painel (Dashboard) em Data Studio.
 
 Segue o link: https://www.kaggle.com/code/mateuscpinheiro/analisando-fiis?scriptVersionId=161206638
+
+## Parte 2 - Converter ipynb para py
+
+```bash
+ python -m venv .venv
+ pyenv local 3.13.0
+ poetry init
+ poetry shell
+ poetry install
+ .
+```
