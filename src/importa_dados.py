@@ -55,5 +55,7 @@ if __name__ == "__main__":
     #historico = importa_historico("AAPL", "2025-05-01", "2025-05-21")
     #print(historico)
     importa_fundamentos_acoes()
+    print("Dados fundamentalistas de ações importados com sucesso.")
     importa_dados_fiis()
+    print("Dados fundamentalistas de FIIs importados com sucesso.")
     
